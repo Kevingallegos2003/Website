@@ -1,0 +1,42 @@
+.tabcontent{
+    padding: 10px;
+    text-align: center;
+}
+.tablink{
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+}
+.tablink:hover{
+    background-color: #777;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+}
+body {
+  background-color: #50808E;
+}
+.showcase{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+  min-width: 200vh;
+}
+.container{
+    width: 200px;
+    height: 120px;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}

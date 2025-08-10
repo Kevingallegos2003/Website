@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+        <link rel="stylesheet" href="JqueryUI/jquery-ui.min.css">
+        <script src="JqueryUI/external/jquery/jquery.js"></script>
+        <script src="JqueryUI/jquery-ui.min.js"></script>
+
+        <script src="javascript/mainpagescript.js"></script>
+
+        <title>Kevin Gallegos</title>
+        <div id="tabs">
+            <button class="tablink" onclick= "window.location.href='./index.html'" id="default">Home</button>
+            <button class="tablink" onclick="window.location.href='./pages/pawfee.html'" id="default">Pawfee Bean</button>
+            <button class="tablink" onclick="window.location.href='./pages/showcase.html'" id="default">Showcase</button>
+            <button class="tablink" onclick="window.location.href='https://github.com/Kevingallegos2003'" id="default">Github</button>
+            <button class="tablink" onclick="window.location.href='./pages/contact.html'" id="default">Contact</button>
+        </div>
+    </head>
+    <body>
+        <div class="flex-cont">
+            <div class="box" id="left">
+                <section>
+                    <img class = "photo" src="./Assets/sad.png">
+                    <h2>Kevin Gallegos</h2>
+                </section>
+                <section>
+                    <h3>Computer Science: Game Design B.S.</h3>
+                    <h4>UC Santa Cruz, California</h4>
+                    <h4>Programmer for Pawfee Bean</h4>
+                </section>
+            </div>
+            <div class="box" id="about">
+                <section>
+                <h2>
+                    About Me
+                </h2>
+                <h3>My name is Kevin Gallegos, a graduate from UC Santa Cruz, with a degree in Computer Science with a focus in Game Design. Since the day I could organize my thoughts I always liked the idea of being able to create stuff. 
+                    I took inspiration by the world and enviroment around me and was curious on how stuff worked. I remember myself creating toys out of paper to play with and drawing comics as a medium to share my thoughts and feelings. 
+                    Overtime this curiosity, the idea of creating and sharing led me to the world of computers and from there I found a medium that I could express myself in. 
+                    Coming up to college I experimented with modding games and personalizing my computer, obtaining a fond intrest in everything from games to building computers. I learned invaluable skills in communication and leadership working at Summer Camps.
+                    All of these intrests and skills culminating together to allow me to pursue my intrest in sharing with the world something that I can make and be interacted with using the medium of programmable media, Games.
+                    
+                </h3>
+                </section>
+                        <div id="accordion">
+            <h3>Resume - Click to expand</h3>
+            <div>
+                <object data="Assets/test.pdf" type="application/pdf" style="min-height:100vh;width:100%"></object>
+            </div>
+        </div>
+            </div>
+            
+            <div class="box" id="skills">
+                <section>
+                <h2>Skills</h2>
+                </section>
+                <section>
+                    <h3>Programming Languages</h3>
+                    <h4>
+                        <p>-C</p>
+                        <p>-C++</p>
+                        <p>-C#</p>
+                        <p>-Javascript</p>
+                        <p>-HTML</p>
+                        <p>-CSS</p>
+                        <p>-Python</p>
+                    </h4>
+                </section>
+                <section>
+                    <h3>Game Engines</h3>
+                    <h4>
+                        <p>-Unity</p>
+                        <p>-Phaser</p>
+                        <p>-RPG Maker</p>
+                        <p>-Godot</p>
+                    </h4>
+                </section>
+                <section>
+                    <h3>Other</h3>
+                    <h4>
+                        <p>-Sales</p>
+                        <p>-Customer Service</p>
+                        <p>-Leadership Experience</p>
+                        <p>-Soldering</p>
+                    </h4>
+                </section>
+            </div>
+        </div>
+        <script>
+            $( function() {
+                $( "#accordion" ).accordion({collapsible: true});
+            } );
+        </script>
+
+    </body>
+</html>

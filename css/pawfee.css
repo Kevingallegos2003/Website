@@ -1,0 +1,61 @@
+.tabcontent{
+    padding: 10px;
+    text-align: center;
+}
+.tablink{
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+}
+.tablink:hover{
+    background-color: #777;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+}
+body {
+    background-image:url('../Assets/pawfeebg.png');
+    background-attachment:fixed;
+    background-size: cover;
+}
+title{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+.pages{
+    font-family: 'Brush Script MT', cursive;
+    color:aliceblue;
+    vertical-align: middle;
+    margin: auto;
+    width: 50%;
+    border: 10px solid rgba(113, 54, 9, 0.964);
+    padding: 10px;
+    background-color: black;
+}
+.Bottom{
+    width: 100%;
+    background-color: rgb(111, 111, 111);
+}
+.logo{/* this works for center iamges and stuff*/
+    vertical-align: middle;
+    margin: auto;
+    width: 80%;
+}
