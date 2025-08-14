@@ -86,3 +86,21 @@ h1 {
   background-color: whitesmoke;
   padding: 10px;
 }
+#accordion{
+  flex:auto; 
+  margin-top: 50px;
+  width: 1000px;
+}.flex-cont-Programtitle{
+  min-height: 100px;
+  border: 8px solid black;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.flex-cont-outline{
+  min-height: 800px;
+  border: 8px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}

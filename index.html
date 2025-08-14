@@ -21,7 +21,7 @@
         </div>
     </head>
     <body>
-        <div class="flex-cont">
+        <div class="flex-cont" id="mainbox">
             <div class="box" id="left">
                 <section>
                     <img class = "photo" src="./Assets/sad.png">
@@ -46,9 +46,9 @@
                     
                 </h3>
                 </section>
-                        <div id="accordion">
-            <h3>Resume - Click to expand</h3>
-            <div>
+                <div id="accordion">
+                    <h3>Resume - Click to expand</h3>
+                <div>
                 <object data="Assets/test.pdf" type="application/pdf" style="min-height:100vh;width:100%"></object>
             </div>
         </div>
@@ -92,9 +92,18 @@
         </div>
         <script>
             $( function() {
-                $( "#accordion" ).accordion({collapsible: true});
+                const mainDiv = document.getElementById("main-box");
+                //const resumeActive = $("#accordion").accordion("option", "active");
+                $( "#accordion" ).accordion({collapsible: true, active:false});
+                
+                //if(resumeActive){mainDiv.style.minHeight="1000px";}
             } );
         </script>
+        <div class="flex-cont-Programtitle">
+            <h2>Programming</h2>
+        </div>
+        <div class="flex-cont-outline">
 
+        </div>
     </body>
 </html>
