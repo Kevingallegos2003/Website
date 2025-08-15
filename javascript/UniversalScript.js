@@ -7,10 +7,15 @@ function test(){
 //initialize jquery ui widgets
 
 $( function() {
-    const mainDiv = document.getElementById("main-box");
-    //const resumeActive = $("#accordion").accordion("option", "active");
-    $( "#accordion" ).accordion({collapsible: true, active:false});
-    
-    //if(resumeActive){mainDiv.style.minHeight="1000px";}
+    const mainDiv = document.getElementById("mainbox");
+    $( "#accordion" ).accordion({
+        collapsible: true, 
+        active:false,
+        activate: function(event,ui){
+            
+            if (ui.newHeader.length > 0){mainDiv.style.minHeight="1400px";}
+            else{mainDiv.style.minHeight = "800px";}
+        }
+    });
     $(".info").tabs();
 } );
