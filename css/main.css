@@ -95,6 +95,7 @@ h1 {
   border: 8px solid black;
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 50px;
 }
 .flex-cont-outline{

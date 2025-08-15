@@ -3,6 +3,15 @@
         <meta charset="UTF-8" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="../css/showcase.css">
+       
+        <script type="text/javascript" src="../Jquery/jquery-3.7.1.js"></script>
+        <link rel="stylesheet" href="../JqueryUI/jquery-ui.min.css">
+        <script src="../JqueryUI/external/jquery/jquery.js"></script>
+        <script src="../JqueryUI/jquery-ui.min.js"></script>
+
+         <script src="../javascript/UniversalScript.js"></script>
+
+
         <div id="tabs">
             <button class="tablink" onclick= "window.location.href='../index.html'" id="default">Home</button>
             <button class="tablink" onclick="window.location.href='./pawfee.html'" id="default">Pawfee Bean</button>
@@ -15,8 +24,23 @@
     <div class = "flextitle" id="titlebox">
         <img src="../Assets/showcaseTitle.png">
     </div>
-    <div class = "showcase" id="showbox">
-        <div class = "container" id="box">
+    <div class="info" id="infobox">
+        <ul>
+            <li><a href="#fragment-1">One</a></li>
+            <li><a href="#fragment-2">Two</a></li>
+            <li><a href="#fragment-3">Three</a></li>
+        </ul>
+        <div id="fragment-1">
+            one 
+        </div>
+        <div id="fragment-2">
+            two
+        </div>
+        <div id="fragment-3">
+            three
+        </div>
+    </div>
+    <div class = "showcased" id="show">
             <button type="button" onclick="window.location.href='https://kevingallegos2003.github.io/galleryshooter/'">
                 <img src="../Assets/duck.PNG">
             </button>
@@ -26,8 +50,6 @@
             <button type="button" onclick="window.location.href='https://kevingallegos2003.github.io/cmpm-121-demo-3/'">
                 <img src="../Assets/location.png">
             </button>
-        </div>
-        <div class = "container" id="box">
             <button type="button" onclick="window.location.href='https://kevingallegos2003.github.io/120final/'">
                 <img src="../Assets/jump.PNG">
             </button>
@@ -37,17 +59,15 @@
             <button type="button" onclick="window.location.href='https://kevingallegos2003.github.io/CMPM-169/lab6/index.html'">
                 <img src="../Assets/news.png">
             </button>
-        </div>
-        <div class = "container" id="box">
             <button type="button" onclick="window.location.href='https://kevingallegos2003.github.io/Prototype3-VirusScanGame/'">
                 <img src="../Assets/pc.PNG">
             </button>
             <button type="button" onclick="window.location.href='https://kevingallegos2003.github.io/cmpm-121-demo-2/'">
                 <img src="../Assets/sketch.png">
             </button>
+            
             <button type="button" onclick="window.location.href='https://ashleyjknapp.itch.io/nuts-4-eggs'">
                 <img src="../Assets/nuts.png">
             </button>
-        </div>
     </div>
 </body>
