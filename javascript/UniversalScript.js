@@ -8,6 +8,8 @@ function test(){
 
 $( function() {
     const mainDiv = document.getElementById("mainbox");
+    const tabBox = document.querySelector( "#infobox ul" );
+    //tabBox.style.display = 'none';
     $( "#accordion" ).accordion({
         collapsible: true, 
         active:false,
@@ -17,5 +19,7 @@ $( function() {
             else{mainDiv.style.minHeight = "800px";}
         }
     });
-    $(".info").tabs();
+    $(".info").tabs({
+          active: 0
+    });
 } );
