@@ -4,12 +4,18 @@ function test(){
     console.log("hello world!");
 }
 
+function changeTab(index){
+    $(".info").tabs({
+          active: index   
+    });
+}
+
 //initialize jquery ui widgets
 
 $( function() {
     const mainDiv = document.getElementById("mainbox");
     const tabBox = document.querySelector( "#infobox ul" );
-    //tabBox.style.display = 'none';
+    tabBox.style.display = 'none';
     $( "#accordion" ).accordion({
         collapsible: true, 
         active:false,
@@ -20,6 +26,6 @@ $( function() {
         }
     });
     $(".info").tabs({
-          active: 0
+          active: 0   
     });
 } );
