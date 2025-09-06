@@ -3,7 +3,10 @@
 function test(){
     console.log("hello world!");
 }
-
+function setShowcase(){
+    const tabBox = document.querySelector( "#infobox ul" );
+    tabBox.style.display = 'none';
+}
 function changeTab(index){
     $(".info").tabs({
           active: index   
@@ -14,8 +17,6 @@ function changeTab(index){
 
 $( function() {
     const mainDiv = document.getElementById("mainbox");
-    const tabBox = document.querySelector( "#infobox ul" );
-    tabBox.style.display = 'none';
     $( "#accordion" ).accordion({
         collapsible: true, 
         active:false,

@@ -18,18 +18,23 @@
             <button class="tablink" onclick="window.location.href='https://github.com/Kevingallegos2003'" id="default">Github</button>
             <button class="tablink" onclick="window.location.href='./pages/contact.html'" id="default">Contact</button>
         </div>
+        <div class="notice" ><p><h2>*Website is currently under construction*</h2></p></div>
     </head>
     <body>
         <div class="flex-cont" id="mainbox">
             <div class="box" id="left">
                 <section>
-                    <img class = "photo" src="./Assets/sad.png">
+                    <img class = "photo" src="./Assets/profileIMG.jpg" style="width: 330px; height: 358px;">
                     <h2>Kevin Gallegos</h2>
                 </section>
                 <section>
                     <h3>Computer Science: Game Design B.S.</h3>
                     <h4>UC Santa Cruz, California</h4>
                     <h4>Programmer for Pawfee Bean</h4>
+                    <h5>-Inventory/Enviroment Interaction Programmer</h5>
+                    <h5>-NPC Interaction programmer</h5>
+                    <h5>-UI prototyping</h5>
+                    <h5>-Model prototyping</h5>
                 </section>
             </div>
             <div class="box" id="about">
@@ -48,7 +53,7 @@
                 <div id="accordion">
                     <h3>Resume - Click to expand</h3>
                 <div>
-                <object data="Assets/test.pdf" type="application/pdf" style="min-height:100vh;width:100%"></object>
+                <object data="Assets/resume1.pdf" type="application/pdf" style="min-height:100vh;width:100%"></object>
             </div>
         </div>
             </div>
@@ -84,18 +89,39 @@
                         <p>-Sales</p>
                         <p>-Customer Service</p>
                         <p>-Leadership Experience</p>
+                        <p>-Video editing and creation</p>
                         <p>-Soldering</p>
                     </h4>
                 </section>
             </div>
         </div>
         <div class="flex-cont-Programtitle">
-            <h2>Programming</h2>
+            <h2>Game Programming Highlights</h2>
         </div>
         <div class="flex-cont-outline">
-
+            <div class="highlightBox">
+                <img class = "photo" src="./Assets/pawfee1.PNG" style="width: 440px; height: 468px;">
+                <p><h2>Placement system</h2></p>
+                <p><h3>The Placement System is a complex system that handles a series of functionality between multiple scripts. Its base functionality is to handle placing furniture of various sizes
+                    while compensating for said sizes and unique properties, handling rotation options and communicating with tiles that they can be placed on, all synced between players in servers.
+                </h3></p>
+            </div>
+            <div class="highlightBox">
+                <img class = "photo" src="./Assets/concept1.PNG" style="width: 440px; height: 468px;">
+                <p><h2>Inventory system</h2></p>
+                <p><h3>The Inventory System goes hand & hand with the Placement System that handles data such as currency, collected furniture and the UI that goes along with it. The Inventory
+                    system allows users to interact with the tiles when furnishing their Cafe while syncing all data between players making sure said tile can be placed on by communicating with the 
+                    placement system.
+                </h3></p>
+            </div>
+            <div class="highlightBox">
+                <img class = "photo" src="./Assets/Concept2.PNG" style="width: 440px; height: 468px;">
+                <p><h2>NPC Behaviour and Dialogue system</h2></p>
+                <p><h3>This system is for handling all NPC interactions and behaviour, This system uses a JSON to compile dialogue in our currently supported languages and feeds them into an interactions
+                    sequence that can have NPCs react accordingly. This also handles NPCs switching states along with their appropriate animations to compliment the main gameplay loop of our game.
+                </h3></p>
+            </div>
         </div>
         <script src="javascript/UniversalScript.js"></script>
-        <script>test()</script>
     </body>
 </html>
