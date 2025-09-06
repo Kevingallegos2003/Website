@@ -38,9 +38,20 @@ body {
     width: 500px;
     height: 200px;
 }
-.info{
+.gamecard{
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    flex-wrap: wrap;
     min-height:500px;
-    border: 8px solid black
+    min-width: 500px;
+}
+.gameCardOptions{
+    align-self: center;
+    max-width: 300px;
+}
+.gameCardImage{
+    align-self: center;
 }
 .showcased{
   min-height: 200px;
