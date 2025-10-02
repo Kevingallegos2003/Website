@@ -56,9 +56,16 @@ button {
     font-size: 40px
 }
 .logo{/* this works for center iamges and stuff*/
-    vertical-align: middle;
-    margin: auto;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .wishprompt{
     display: flex;

@@ -67,9 +67,13 @@ body {
     height: 200px;
 }
 .showcased button{
+    background-color: transparent;
+    outline: none;
+    border: none;
     width: 180px;
     height: 180px;
 }
 .infocard{
     display: flex;
 }
+
